@@ -3,17 +3,17 @@ export default function DynamicCTA({ goal }) {
   let message = '';
   let btnText = '';
   if (goal === 'lose') {
-    headline = 'Ready to Lose Fat the Right Way?';
-    message = "You've got your numbers! Now, let me show you how to turn them into real results. If you want a clear explanation and a plan tailored to you, just text me on WhatsApp and I'll help you get started!";
-    btnText = 'Text Me for Fat Loss Help';
+    headline = 'You’ve Got the Numbers—But the Belly’s Still There?';
+    message = 'Text me now and I’ll give you a free review and a step-by-step plan to lose the fat in 6 weeks. No more confusion—just results.';
+    btnText = 'Text Me for My 6-Week Fat Loss Plan';
   } else if (goal === 'gain') {
-    headline = 'Want to Build Muscle Effectively?';
-    message = "Your calorie target is set for muscle gain. Want to know how to use it for real progress? Text me on WhatsApp for a personal explanation and a proven muscle-building plan!";
-    btnText = 'Text Me for Muscle Gain Help';
+    headline = 'You’re Eating More—But Still Not Growing?';
+    message = 'Text me now for a free intake review and a proven 8-week muscle-building plan. I’ll show you exactly how to track and eat for real gains.';
+    btnText = 'Text Me for My 8-Week Muscle Plan';
   } else {
-    headline = 'Want to Maintain and Thrive?';
-    message = "Staying on track is key. If you want a clear explanation and ongoing support, text me on WhatsApp and I'll help you stay consistent!";
-    btnText = 'Text Me for Support';
+    headline = 'You Hit Your Goal—But Can You Keep It?';
+    message = 'Text me now for a free review and a 3-month maintenance strategy to stay lean and in control—no more rebound.';
+    btnText = 'Text Me for My 3-Month Maintenance Plan';
   }
 
   const whatsappLink = 'https://wa.me/254711677140';
