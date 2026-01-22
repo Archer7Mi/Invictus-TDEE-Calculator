@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import DynamicCTA from './DynamicCTA';
 
 const activityOptions = [
   { value: 'sedentary', label: 'Sedentary - Desk job, minimal movement (little/no exercise)', factor: 1.2 },
