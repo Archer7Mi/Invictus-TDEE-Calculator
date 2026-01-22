@@ -130,11 +130,7 @@ export default function Calculator() {
           <p>If you consistently stay within this calorie range, train properly and don't sabotage yourself on weekends, you should expect gradual, sustainable fat loss. If you're not seeing change, the problem usually isn't the calculation — it's habits, accuracy and structure.</p>
         </div>
 
-        <div className="cta">
-          <h3>If You Want This to Actually Work</h3>
-          <p>You've got your numbers. Now you need a plan, accountability and adjustments when your body inevitably doesn't follow the calculator. If you want me to turn this into a personalised fat-loss roadmap, click below and let's do it properly.</p>
-          <a className="cta-btn" href="https://wa.me/%3Cyournumber%3E" target="_blank" rel="noreferrer">Get Your Personal Fat Loss Plan</a>
-        </div>
+        <DynamicCTA goal={results.goal} />
       </div>
     )
   }
