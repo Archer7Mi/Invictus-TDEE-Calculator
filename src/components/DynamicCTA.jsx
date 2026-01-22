@@ -23,7 +23,6 @@ export default function DynamicCTA({ goal }) {
       <h3>{headline}</h3>
       <p>{message}</p>
       <a className="cta-btn" href={whatsappLink} target="_blank" rel="noopener noreferrer">{btnText}</a>
-      <small>Replies are personal. No bots, just real help!</small>
     </div>
   );
 }
