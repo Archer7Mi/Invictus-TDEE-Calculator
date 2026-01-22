@@ -16,14 +16,13 @@ export default function DynamicCTA({ goal }) {
     btnText = 'Text Me for Support';
   }
 
-  const whatsappNumber = '254711677140';
-  const whatsappLink = `https://wa.me/${whatsappNumber}`;
+  const whatsappLink = 'https://wa.me/254711677140';
 
   return (
     <div className="cta">
       <h3>{headline}</h3>
       <p>{message}</p>
-      <a className="cta-btn" href={whatsappLink} target="_blank" rel="noreferrer">{btnText}</a>
+      <a className="cta-btn" href={whatsappLink} target="_blank" rel="noopener noreferrer">{btnText}</a>
       <small>Replies are personal. No bots, just real help!</small>
     </div>
   );
